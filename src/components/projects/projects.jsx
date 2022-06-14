@@ -1,6 +1,7 @@
 import React from 'react'
 import './projects.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import AKS from '../../assets/aks.png'
+import REACT from '../../assets/react.png'
 
 
 const Projects = () => {
@@ -12,7 +13,7 @@ const Projects = () => {
       <div className='container projects__container'>
         <article className='projects__item'>
           <div className='projects__item-image'>
-            <img src={IMG1} alt="" />
+            <img src={AKS} alt="" />
           </div>
           <h3>Simple Azure Kubernetes Service</h3>
           <div className='projects__item-cta'>
@@ -21,11 +22,11 @@ const Projects = () => {
         </article>
         <article className='projects__item'>
           <div className='projects__item-image'>
-            <img src={IMG1} alt="" />
+            <img src={REACT} alt="" />
           </div>
-          <h3>This is a projects item title</h3>
+          <h3>You can find here this react page source code</h3>
           <div className='projects__item-cta'>
-            <a href="https://github.com/HAtt1la" className='btn' target='_blank' rel="noreferrer">Github</a>
+            <a href="https://github.com/HAtt1la/resume" className='btn' target='_blank' rel="noreferrer">Github</a>
           </div>
         </article>
       </div>
