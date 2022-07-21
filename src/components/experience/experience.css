@@ -68,7 +68,20 @@
     }
 
     .experience__container > div {
-        width: 80%;
+        width: 70%;
         pad: 1rem 1rem;
+    }
+
+    .experience__details_icon {
+        visibility: hidden;
+    }
+
+    .experience__details {
+        display:table ;
+        text-align: center;
+    }
+    .experience__content {
+        display: unset;
+        padding:0rem;
     }
 }
