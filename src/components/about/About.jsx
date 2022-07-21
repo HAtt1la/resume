@@ -28,7 +28,7 @@ const About = () => {
             <article className='about__card'>
               <SiKubernetes className='about__icon'/>
               <h5>Kubernetes</h5>
-              <p>Hands-on with Kubernetes both Native and AKS</p>
+              <p>Hands-on with Kubernetes</p>
             </article>
 
             <article className='about__card'>

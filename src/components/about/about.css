@@ -5,7 +5,7 @@
 }
 
 .about__me {
-    width: 100%;
+    width: 80%;
     height: 100%;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent );
@@ -16,7 +16,7 @@
 
 .about__me-image {
     border-radius: 2rem;
-    overflow: hidden;
+    /*overflow: hidden; */
     transform: rotate(5deg);
     transition: var(--transition);
 }
@@ -62,7 +62,7 @@
 }
 
 .about__content p {
-    margin: 2rem 0 2.6rem;
+    margin: auto;
     color: var(--color-light);
 }
 
@@ -90,6 +90,7 @@
 @media screen and (max-width: 600px) {
     .about__me {
         width: 65%;
+        height: 90%;
         margin: 0 auto 3rem;
     }
 
@@ -97,7 +98,6 @@
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
-
     .about__content {
         text-align: center;
     }

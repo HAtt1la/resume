@@ -46,7 +46,7 @@ header {
     width: 20rem;
     height: 23rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(50% - 10rem);
     margin-top: 4rem;
     border-radius: 5rem 5rem ;
     overflow: hidden;
@@ -71,6 +71,12 @@ header {
     header {
         height: 68vh;
 
+    }
+    .scroll__down {
+        bottom: 7rem;
+    }
+    .header__socials {
+        bottom: 4rem;
     }
 }
 
